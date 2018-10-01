@@ -5,6 +5,7 @@ and [`Fold`](https://hackage.haskell.org/package/foldl-1.4.0/docs/Control-Foldl.
 based parsers and combinators for `UTF8` [`ByteString`](http://hackage.haskell.org/package/bytestring)
 input.
 
+
 ## Contents
 
 - Input streams are modeled using `CofreeF`: `Control.Comonad.CofreeF`
@@ -39,4 +40,10 @@ newtype FoldE a m b = FoldE { runFoldE :: FoldM (ExceptT b m) a b }
   + Tokens are provided through an `Enum` instance
 
 - Another tokenization implementation and a number of combinators for parsing with `Fold`, `FoldM`: `Lib`
+
+
+## Docs
+
+Haddock-generated documentation is available at:
+https://michaeljklein.github.io/cofree-foldl-utf8/
 
