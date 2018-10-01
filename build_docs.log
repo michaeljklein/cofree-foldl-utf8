@@ -1,0 +1,211 @@
+I, [2018-10-01T19:10:04.151923 #64298]  INFO -- : Stack log:
+I, [2018-10-01T19:10:04.152009 #64298]  INFO -- : cofree-foldl-utf8-0.1.0.0: unregistering
+Building all executables for `cofree-foldl-utf8' once. After a successful build of all of them, only specified executables will be rebuilt.
+cofree-foldl-utf8-0.1.0.0: configure (lib + exe)
+Configuring cofree-foldl-utf8-0.1.0.0...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+cofree-foldl-utf8-0.1.0.0: build (lib + exe)
+Preprocessing library for cofree-foldl-utf8-0.1.0.0..
+Building library for cofree-foldl-utf8-0.1.0.0..
+[1 of 9] Compiling Control.Foldl.Utils ( src/Control/Foldl/Utils.hs, .stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/Control/Foldl/Utils.o )
+[2 of 9] Compiling Control.Comonad.CofreeF ( src/Control/Comonad/CofreeF.hs, .stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/Control/Comonad/CofreeF.o )
+[3 of 9] Compiling Control.Foldl1   ( src/Control/Foldl1.hs, .stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/Control/Foldl1.o )
+[4 of 9] Compiling Control.Foldl.Except ( src/Control/Foldl/Except.hs, .stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/Control/Foldl/Except.o )
+[5 of 9] Compiling Data.Range       ( src/Data/Range.hs, .stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/Data/Range.o )
+[6 of 9] Compiling Control.Foldl.UTF8 ( src/Control/Foldl/UTF8.hs, .stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/Control/Foldl/UTF8.o )
+[7 of 9] Compiling Data.Token       ( src/Data/Token.hs, .stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/Data/Token.o )
+[8 of 9] Compiling Lib              ( src/Lib.hs, .stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/Lib.o )
+[9 of 9] Compiling Paths_cofree_foldl_utf8 ( .stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/autogen/Paths_cofree_foldl_utf8.hs, .stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/Paths_cofree_foldl_utf8.o )
+Preprocessing executable 'cofree-foldl-utf8-exe' for cofree-foldl-utf8-0.1.0.0..
+Building executable 'cofree-foldl-utf8-exe' for cofree-foldl-utf8-0.1.0.0..
+[1 of 2] Compiling Main             ( app/Main.hs, .stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/cofree-foldl-utf8-exe/cofree-foldl-utf8-exe-tmp/Main.o )
+[2 of 2] Compiling Paths_cofree_foldl_utf8 ( .stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/cofree-foldl-utf8-exe/autogen/Paths_cofree_foldl_utf8.hs, .stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/cofree-foldl-utf8-exe/cofree-foldl-utf8-exe-tmp/Paths_cofree_foldl_utf8.o )
+Linking .stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/cofree-foldl-utf8-exe/cofree-foldl-utf8-exe ...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+cofree-foldl-utf8-0.1.0.0: haddock
+Preprocessing library for cofree-foldl-utf8-0.1.0.0..
+Running Haddock on library for cofree-foldl-utf8-0.1.0.0..
+Haddock coverage:
+  67% (  4 /  6) in 'Control.Foldl.Utils'
+  Missing documentation for:
+    Module header
+    hoistFoldM (src/Control/Foldl/Utils.hs:24)
+  35% (  6 / 17) in 'Control.Comonad.CofreeF'
+  Missing documentation for:
+    Module header
+     (src/Control/Comonad/CofreeF.hs:16)
+     (src/Control/Comonad/CofreeF.hs:19)
+     (src/Control/Comonad/CofreeF.hs:24)
+     (src/Control/Comonad/CofreeF.hs:29)
+     (src/Control/Comonad/CofreeF.hs:36)
+     (src/Control/Comonad/CofreeF.hs:40)
+     (src/Control/Comonad/CofreeF.hs:43)
+    spanCofreeF (src/Control/Comonad/CofreeF.hs:71)
+    spanCofreeF' (src/Control/Comonad/CofreeF.hs:85)
+    foldCofreeF (src/Control/Comonad/CofreeF.hs:104)
+  57% (  4 /  7) in 'Control.Foldl1'
+  Missing documentation for:
+    Module header
+    toFold1 (src/Control/Foldl1.hs:19)
+    toFoldM1 (src/Control/Foldl1.hs:22)
+  35% (  8 / 23) in 'Control.Foldl.Except'
+  Missing documentation for:
+    Module header
+    joinEither (src/Control/Foldl/Except.hs:21)
+     (src/Control/Foldl/Except.hs:36)
+    foldEs_ (src/Control/Foldl/Except.hs:91)
+    foldE1' (src/Control/Foldl/Except.hs:169)
+    foldE0 (src/Control/Foldl/Except.hs:193)
+    foldE0' (src/Control/Foldl/Except.hs:209)
+    fold1E (src/Control/Foldl/Except.hs:237)
+    foldIf1 (src/Control/Foldl/Except.hs:240)
+    span1E (src/Control/Foldl/Except.hs:252)
+    span2E (src/Control/Foldl/Except.hs:269)
+    spanIfE2 (src/Control/Foldl/Except.hs:283)
+    parseStringWith (src/Control/Foldl/Except.hs:286)
+    takeWhile1 (src/Control/Foldl/Except.hs:305)
+    takeUntil1 (src/Control/Foldl/Except.hs:315)
+  25% (  1 /  4) in 'Data.Range'
+  Missing documentation for:
+    Module header
+     (src/Data/Range.hs:11)
+     (src/Data/Range.hs:25)
+  17% (  4 / 24) in 'Control.Foldl.UTF8'
+  Missing documentation for:
+    Module header
+    iterateCofree (src/Control/Foldl/UTF8.hs:39)
+    enumCofree (src/Control/Foldl/UTF8.hs:42)
+    sizedUncons (src/Control/Foldl/UTF8.hs:125)
+    unfoldUncons (src/Control/Foldl/UTF8.hs:130)
+    StringLit (src/Control/Foldl/UTF8.hs:140)
+    emptyStringLit (src/Control/Foldl/UTF8.hs:144)
+    unsafeSelect (src/Control/Foldl/UTF8.hs:147)
+    toStringLit (src/Control/Foldl/UTF8.hs:152)
+    Pos (src/Control/Foldl/UTF8.hs:157)
+    unfoldUnconsC (src/Control/Foldl/UTF8.hs:162)
+    parseStringE (src/Control/Foldl/UTF8.hs:165)
+    Line (src/Control/Foldl/UTF8.hs:201)
+    LineT (src/Control/Foldl/UTF8.hs:203)
+    joinEither (src/Control/Foldl/UTF8.hs:226)
+    prefixF (src/Control/Foldl/UTF8.hs:230)
+    prefixFM (src/Control/Foldl/UTF8.hs:241)
+    enumF (src/Control/Foldl/UTF8.hs:267)
+    chunkF (src/Control/Foldl/UTF8.hs:270)
+    chunkFM (src/Control/Foldl/UTF8.hs:281)
+   0% (  0 /  7) in 'Data.Token'
+  Missing documentation for:
+    Module header
+    TokenStateT (src/Data/Token.hs:33)
+    TokenState (src/Data/Token.hs:35)
+    Token (src/Data/Token.hs:41)
+    foldTrie (src/Data/Token.hs:43)
+    foldTrieM (src/Data/Token.hs:54)
+    fst3 (src/Data/Token.hs:57)
+  18% ( 16 / 91) in 'Lib'
+  Missing documentation for:
+    Module header
+    Token (src/Lib.hs:120)
+    TokenState (src/Lib.hs:127)
+    TokenT (src/Lib.hs:132)
+     (src/Lib.hs:134)
+     (src/Lib.hs:139)
+     (src/Lib.hs:142)
+     (src/Lib.hs:145)
+     (src/Lib.hs:148)
+    runTokenT (src/Lib.hs:163)
+    parseText (src/Lib.hs:167)
+    enumCofree (src/Lib.hs:178)
+    mark (src/Lib.hs:183)
+    unMarkToken (src/Lib.hs:192)
+    selectToken (src/Lib.hs:199)
+    selectText (src/Lib.hs:202)
+    unitReader (src/Lib.hs:224)
+    unitReaderM (src/Lib.hs:227)
+    fromList (src/Lib.hs:237)
+    foldlChar (src/Lib.hs:251)
+    foldlChar' (src/Lib.hs:254)
+    groupByF' (src/Lib.hs:282)
+    groupByF'' (src/Lib.hs:296)
+    sumF (src/Lib.hs:338)
+    pushTop (src/Lib.hs:508)
+    feedTop (src/Lib.hs:511)
+    popTop (src/Lib.hs:514)
+    pushFeedPop (src/Lib.hs:527)
+    pushFeedPopFold (src/Lib.hs:533)
+    collect (src/Lib.hs:544)
+    collectM_ (src/Lib.hs:558)
+    collectM (src/Lib.hs:572)
+    Spaces (src/Lib.hs:589)
+     (src/Lib.hs:591)
+    MaybeSpaces (src/Lib.hs:595)
+    swapEither (src/Lib.hs:597)
+    collectSpaces (src/Lib.hs:600)
+    collectSpacesM (src/Lib.hs:603)
+    foldSpaces (src/Lib.hs:606)
+    foldSpacesM (src/Lib.hs:617)
+    collectFoldSpaces (src/Lib.hs:636)
+    collectFoldSpacesM (src/Lib.hs:639)
+    exampleCountChars (src/Lib.hs:642)
+    stringF (src/Lib.hs:645)
+    FreeReaderT (src/Lib.hs:649)
+     (src/Lib.hs:651)
+     (src/Lib.hs:656)
+     (src/Lib.hs:659)
+    MonadReader (src/Lib.hs:662)
+     (src/Lib.hs:665)
+    cofreeRead (src/Lib.hs:668)
+    hoistFreeReaderT (src/Lib.hs:671)
+    feedF (src/Lib.hs:678)
+    feedFM (src/Lib.hs:682)
+    joinFoldM (src/Lib.hs:686)
+    returnFoldM (src/Lib.hs:689)
+    bindFoldM (src/Lib.hs:692)
+    mapMFoldM (src/Lib.hs:695)
+    dimapFoldM (src/Lib.hs:698)
+    extractM (src/Lib.hs:702)
+    swapMaybe (src/Lib.hs:705)
+    endTreeFM (src/Lib.hs:708)
+    pushNonEmpty (src/Lib.hs:837)
+    popNonEmpty (src/Lib.hs:840)
+    printFreeF (src/Lib.hs:891)
+    enumF (src/Lib.hs:896)
+    enumF' (src/Lib.hs:903)
+    countF (src/Lib.hs:906)
+    Fold1 (src/Lib.hs:929)
+    groupByFM' (src/Lib.hs:960)
+    snd3 (src/Lib.hs:981)
+    fold2 (src/Lib.hs:1084)
+    fold2Cofree (src/Lib.hs:1087)
+    fold3Cofree (src/Lib.hs:1090)
+    someFunc (src/Lib.hs:1146)
+   0% (  0 /  9) in 'Paths_cofree_foldl_utf8'
+  Missing documentation for:
+    Module header
+    version (.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/autogen/Paths_cofree_foldl_utf8.hs:28)
+    getBinDir (.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/autogen/Paths_cofree_foldl_utf8.hs:39)
+    getLibDir (.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/autogen/Paths_cofree_foldl_utf8.hs:39)
+    getDynLibDir (.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/autogen/Paths_cofree_foldl_utf8.hs:39)
+    getDataDir (.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/autogen/Paths_cofree_foldl_utf8.hs:39)
+    getLibexecDir (.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/autogen/Paths_cofree_foldl_utf8.hs:39)
+    getDataFileName (.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/autogen/Paths_cofree_foldl_utf8.hs:47)
+    getSysconfDir (.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/autogen/Paths_cofree_foldl_utf8.hs:39)
+Documentation created:
+.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/doc/html/cofree-foldl-utf8/index.html,
+.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/doc/html/cofree-foldl-utf8/cofree-foldl-utf8.txt
+Preprocessing test suite 'cofree-foldl-utf8-test' for cofree-foldl-utf8-0.1.0.0..
+Preprocessing executable 'cofree-foldl-utf8-exe' for cofree-foldl-utf8-0.1.0.0..
+cofree-foldl-utf8-0.1.0.0: copy/register
+Installing library in /Users/michaelklein/Coding/scratch/s38/.stack-work/install/x86_64-osx/lts-11.2/8.2.2/lib/x86_64-osx-ghc-8.2.2/cofree-foldl-utf8-0.1.0.0-BiB0ReZbWWZKTMkE9x1LX7
+Installing executable cofree-foldl-utf8-exe in /Users/michaelklein/Coding/scratch/s38/.stack-work/install/x86_64-osx/lts-11.2/8.2.2/bin
+Registering library for cofree-foldl-utf8-0.1.0.0..
+Updating Haddock index for local packages in
+/Users/michaelklein/Coding/scratch/s38/.stack-work/install/x86_64-osx/lts-11.2/8.2.2/doc/index.html
+Updating Haddock index for local packages and dependencies in
+/Users/michaelklein/Coding/scratch/s38/.stack-work/install/x86_64-osx/lts-11.2/8.2.2/doc/all/index.html
+Haddock index for snapshot packages already up to date at:
+/Users/michaelklein/.stack/snapshots/x86_64-osx/lts-11.2/8.2.2/doc/index.html
+
+I, [2018-10-01T19:10:04.152124 #64298]  INFO -- : nil
+I, [2018-10-01T19:10:04.152148 #64298]  INFO -- : built_docs_dir: /Users/michaelklein/Coding/scratch/s38/.stack-work/install/x86_64-osx/lts-11.2/8.2.2/doc
+I, [2018-10-01T19:10:04.874663 #64298]  INFO -- : Docs copied to doc/
