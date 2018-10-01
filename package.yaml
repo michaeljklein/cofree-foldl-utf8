@@ -1,0 +1,59 @@
+name:                cofree-foldl-utf8
+version:             0.1.0.0
+github:              "michaeljklein/cofree-foldl-utf8"
+license:             BSD3
+author:              "Michael Klein"
+maintainer:          "lambdamichael@gmail.com"
+copyright:           "2018 Michael Klein"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            Web
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on Github at <https://github.com/michaeljklein/cofree-foldl-utf8#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- bytestring
+- bytestring-trie
+- comonad
+- containers
+- foldl
+- free
+- profunctors
+- text
+- transformers
+- utf8-string
+- vector-sized
+
+library:
+  source-dirs: src
+
+executables:
+  cofree-foldl-utf8-exe:
+    main:                Main.hs
+    source-dirs:         app
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - cofree-foldl-utf8
+
+tests:
+  cofree-foldl-utf8-test:
+    main:                Spec.hs
+    source-dirs:         test
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - cofree-foldl-utf8
